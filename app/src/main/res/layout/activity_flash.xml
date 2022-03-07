@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B4FA7C5C"
+    tools:context=".Flash">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="328dp"
+        android:layout_height="206dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/tictactoeicon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Created by Mohd Farhan Siddiqui and Anamika Singh Chauhan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#5E70E1"
+        android:textStyle="bold|italic"
+        app:autoSizeMaxTextSize="14sp" />
+</RelativeLayout>
